@@ -11,11 +11,11 @@
    ```bash
    git clone https://github.com/joseph8071/morphace_backend.git
 2. Move to folder:
-```bash
-cd morphace_backend
+   ```bash
+   cd morphace_backend
 3. Install dependencies:
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 4. Start the FastAPI application with Uvicorn:
-```bash
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+   ```bash
+   uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
